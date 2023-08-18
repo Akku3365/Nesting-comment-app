@@ -1,0 +1,74 @@
+/** @format */
+
+.comment-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+}
+
+.comment-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.reply-input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.reply-button,
+.delete-button,
+.edit-button,
+.cancel-button {
+    padding: 3px 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.reply-button {
+    background-color: #0079d3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #d9534f;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.edit-button {
+    background-color: rgb(120, 145, 145);
+    color: white;
+}
+
+/* Shift comment-container to the right on reply */
+.comment-item {
+    margin-left: 20px;
+}
